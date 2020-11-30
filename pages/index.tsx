@@ -2,7 +2,7 @@ import { GetStaticProps } from 'next';
 import dynamic from 'next/dynamic';
 import { GraphQLClient }  from 'graphql-request';
 import {query} from './../models/LandingPageGraphQL';
-const App = dynamic(()=>import ('./../templates/'+process.env.Template+'/App'))
+const App = dynamic(()=>import ('/templates/'+process.env.Template+'/App'))
 import {landingPage} from './../lib/mirage/landingPageMock';
 
 
