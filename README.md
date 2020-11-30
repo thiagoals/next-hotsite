@@ -1,3 +1,9 @@
+Hello, there.
+
+This is a project that can generate dynamically a template with a sample mock/api. Feel free to download and use it as you please.
+
+The website is hosted in [https://thsolutions.vercel.app](https://thsolutions.vercel.app). Open it and see the sample template working as a pitch!
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
