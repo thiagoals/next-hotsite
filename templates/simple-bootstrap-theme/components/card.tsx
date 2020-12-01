@@ -17,7 +17,7 @@ class UniqueCard extends Component<{data:any}>{
     const IconCard = createElement(components[this.props.data.Icon],
       {style:{color:"#000",fontSize:"60px"}});
     return(
-      <Card style={{ width: '100%', border:"0px", textAlign: 'center' }}>
+      <Card style={{ width: '100%', border:"0px", textAlign: 'center', marginBottom:"20px" }}>
         <Card.Body>
           <Card.Title>{IconCard}</Card.Title>
           <Card.Title>{this.props.data.Title}</Card.Title>
