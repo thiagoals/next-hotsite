@@ -24,7 +24,7 @@ export const landingPage = {
       {
         Icon: 'Globe',
         Title: 'Availability',
-        Description: 'As we deploy in cloud, you can access it anywhere you want.',
+        Description: 'We deploy in cloud, you can access anywhere you want.',
         HasButton: true,
         ButtonName: 'See more.',
         ButtonHref: '#seeMore',
