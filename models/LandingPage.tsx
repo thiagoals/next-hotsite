@@ -37,6 +37,9 @@ export default interface LandingPage{
       provider: String,
     },
     Menus: any[],
+    BannerTitle: String,
+    BannerDescription: String,
     AboutUsTitle:String,
-    AboutUsSubtitle:String
+    AboutUsSubtitle:String,
+    AboutUsCards: any[]
   }

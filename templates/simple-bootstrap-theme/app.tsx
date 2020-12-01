@@ -3,6 +3,7 @@ import Menu from './components/menu';
 import Banner from './components/banner';
 import AboutUs from './components/jumbotron';
 import LandingPage from '../../models/LandingPage';
+import Cards from './components/cards';
 
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
                 <Menu data={this.props as LandingPage}/>
                 <Banner data={this.props as LandingPage}/>
                 <AboutUs data={this.props as LandingPage}/>
+                <Cards data={this.props as LandingPage}/>
             </>
         )
     }

@@ -8,8 +8,36 @@ export const landingPage = {
       { Description: 'About us', Link: '#aboutUs', Order: 1 },
       { Description: 'Contact', Link: '#contact', Order: 2 }
     ],
+    BannerTitle: 'TH Solutions',
+    BannerDescription: 'Web developing you have never see.',
     AboutUsTitle: 'About me',
-    AboutUsSubtitle: "My name is Thiago. I'm a fullstack developer. This website uses what is the best of web develop technology: NextJS."
+    AboutUsSubtitle: "My name is Thiago. I'm a fullstack developer. This website uses what is the best of web develop technology: NextJS.",
+    AboutUsCards:[
+      {
+        Icon: 'CodeSlash',
+        Title: 'Coding',
+        Description: 'We have the best that technology can offer to you.',
+        HasButton: true,
+        ButtonName: 'See more.',
+        ButtonHref: '#seeMore',
+      },
+      {
+        Icon: 'Globe',
+        Title: 'Availability',
+        Description: 'As we deploy in cloud, you can access it anywhere you want.',
+        HasButton: true,
+        ButtonName: 'See more.',
+        ButtonHref: '#seeMore',
+      },
+      {
+        Icon: 'GraphUp',
+        Title: 'Business',
+        Description: 'You can boost your company by simply making a website.',
+        HasButton: true,
+        ButtonName: 'See more.',
+        ButtonHref: '#seeMore',
+      },
+    ]
   }
 };
 export default function createLandingPageMock(){

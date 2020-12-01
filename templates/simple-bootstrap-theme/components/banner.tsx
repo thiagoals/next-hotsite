@@ -14,10 +14,10 @@ class Banner extends Component<{data:LandingPage},{}>{
           style={{ objectFit: "cover", width:"100%", height:"100%", position: "fixed", zIndex: -1 }}/>
         <div style={{alignSelf: 'stretch',textAlign: 'center',width:"100%", height:"100vh"}}>     
           <h1 style={{paddingTop:'35vh',color:"#fff", fontSize:"55px",paddingLeft:"20px",paddingRight:"20px"}}>
-            Hello there!
+            {this.props.data.BannerTitle}
           </h1>
           <p style={{paddingLeft:"20px",paddingRight:"20px",color:"#fff", fontSize:"30px"}}>
-            Web developing you have never see.
+          {this.props.data.BannerDescription}
           </p>
         </div>
       </div>
