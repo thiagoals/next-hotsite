@@ -37,7 +37,9 @@ export const landingPage = {
         ButtonName: 'See more.',
         ButtonHref: '#seeMore',
       },
-    ]
+    ],
+    ContactTitle:'Entre em contato conosco',
+    ContactSubtitle:'Fazemos um orçamento do seu sistema sem compromisso :)',
   }
 };
 export default function createLandingPageMock(){
