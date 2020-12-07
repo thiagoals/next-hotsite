@@ -13,17 +13,9 @@ module.exports = withImages(withVideos({
         WebServicePath: "http://localhost:8080",
         API_BASE_URL: "http://localhost:3000",
         USE_MIRAGE_SERVER: true,
-        UseMock: true
+        UseMock: true,
     }, 
     sassOptions: {
         includePaths: [path.join(__dirname, 'styles')],
     },
 }))
-/*
-module.exports = {
-    env: {
-        SiteName: "Simple Bootstrap Theme",
-        BasePath: "localhost:3000",
-        Template: "simple-bootstrap-theme"
-    }
-}*/

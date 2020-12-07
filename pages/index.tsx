@@ -29,6 +29,6 @@ export const getStaticProps: GetStaticProps = async () => {
         props: {
             landingPageProps: response,
         },
-        revalidate:3600,
+        revalidate: 86400, // 1 day
     }
 };
