@@ -4,14 +4,17 @@ import { GraphQLClient }  from 'graphql-request';
 import {query} from './../models/LandingPageGraphQL';
 const App = dynamic(()=>import ('./../templates/'+process.env.Template+'/app'))
 import {landingPage} from './../lib/mirage/landingPageMock';
-
+import { Provider } from "react-redux";
+import store from './../redux/storage';
 
 // Importing template here
 export default function Index({landingPageProps}){
     
     landingPageProps = (process.env.UseMock)?landingPage:landingPageProps;
     return (
-        <App {...landingPageProps.landingPage }/>
+        <Provider store={store}>
+            <App {...landingPageProps.landingPage }/>
+        </Provider>
     )
 }
 
