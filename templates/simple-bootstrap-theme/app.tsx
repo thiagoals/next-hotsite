@@ -12,11 +12,11 @@ import {useSelector} from 'react-redux';
  const App = (()=>{
     const landingPage:LandingPage = useSelector(state => state.landingPageReducer);
     return (<>
-        <Menu data={landingPage}/>
-        <Banner data={landingPage}/>
-        <AboutUs data={landingPage}/>
-        <Cards data={landingPage}/>
-        <Contact data={landingPage}/>
+        <Menu/>
+        <Banner/>
+        <AboutUs/>
+        <Cards/>
+        <Contact/>
         <Footer/>
     </>)
  });

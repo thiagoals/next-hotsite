@@ -13,7 +13,7 @@ export default function Index({landingPageProps}){
     landingPageProps = (process.env.UseMock)?landingPage:landingPageProps;
     return (
         <Provider store={store}>
-            <App {...landingPageProps.landingPage }/>
+            <App/>
         </Provider>
     )
 }
