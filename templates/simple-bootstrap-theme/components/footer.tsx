@@ -26,7 +26,7 @@ class Footer extends Component{
           <SocialMediaContainer xs={12} md={6} lg={8} xl={8}>
             <Col>
               <Image src="https://i.pinimg.com/originals/b7/63/69/b763699fd1fa3bfb374442593ae642e1.png" width="40"/>
-              <Image src="https://i.pinimg.com/originals/63/9b/3d/639b3dafb544d6f061fcddd2d6686ddb.png" width="40"/>
+              <Image src="https://i.pinimg.com/originals/63/9b/3d/639b3dafb544d6f061fcddd2d6686ddb.png" width="50"/>
               <Image src="https://cdn3.iconfinder.com/data/icons/picons-social/57/58-youtube-512.png" width="38" />
               <Image src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-512.png" width="39" />
             </Col>
